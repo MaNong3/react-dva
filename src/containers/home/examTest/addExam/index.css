@@ -1,0 +1,95 @@
+:global .test{
+  width: 100%;
+  height: 100%;
+  padding: 0 30px 30px 30px;
+  box-sizing: border-box;
+
+}
+:global .components{
+  display: flex;
+  justify-content: space-between;
+  margin-top:20px;
+}
+:global .demo-editor {
+  width: 100%!important;
+  height:180px !important;
+  border: 1px solid #F1F1F1 ;
+  border-radius: 2px ;
+}
+
+:global h1 {
+  margin: 40px;
+}
+
+:global .bot {
+  background: #ffffff;
+}
+
+:global .bot .el-input__inner {
+  width: 100%;
+}
+
+:global .bot .el-textarea__inner {
+  width: 70%;
+  height: 300px;
+  margin: 0 50px;
+  display: block;
+}
+:global .bot p{
+  height: 35px;
+  line-height: 35px;
+  margin-left: 40px;
+}
+
+:global .el-select-dropdown{
+  left: 50px!important;
+}
+:global .bot .el-button {
+  margin: 50px;
+}
+
+:global .el-button{
+  width: 100px;
+  position: relative;
+  left:80%;
+ 
+}
+:global #box_exam {
+  display: flex;
+}
+
+:global #box_exam .type {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 40px;
+}
+
+:global .btn .ant-btn {
+  display: inline-block;
+  width: 200px;
+  margin-left: 290px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+:global .bot h6 {
+  margin: 20px 60px;
+}
+
+:global .bot .ant-input {
+  display: inline-block;
+  width: 700px;
+  height: 60px;
+  margin-left: 70px;
+}
+:global .el-textarea{
+  width: 40%;
+}
+:global .components div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

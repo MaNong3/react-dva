@@ -1,0 +1,37 @@
+:global .login-form {
+  width: 50%;
+  border-radius: 15px;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+:global .login-form-button {
+  margin: 20px 10px;
+}
+
+:global .userMsg form {
+  width: 30%;
+  margin: 10px;
+  background: #fff;
+  margin: 0 auto;
+}
+
+:global .userMsg button {
+  margin: 0 15px;
+}
+
+:global .test .bot .el-input__icon {
+  right: -40px;
+}
+
+:global .el-select-dropdown {
+  left: 0px !important;
+}
+
+:global .el-input {
+  margin-left: 10px !important;
+}
+
+#normal_login_userName {
+  text-indent: 2rem;
+}

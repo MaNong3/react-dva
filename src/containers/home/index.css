@@ -1,0 +1,76 @@
+:global #components-layout-demo-custom-trigger .trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color .3s;
+ 
+}
+:global .nav_box a{
+
+  text-align: center;
+  margin-right: 22px;
+}
+:global #components-layout-demo-custom-trigger .trigger:hover {
+  color: #1890ff;
+}
+:global .ant-layout{
+  width: 75%;
+ flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+}
+:global .ant-tabs{
+   
+}
+:global .ant-layout-header{
+  color: #fff;
+}
+:global .ant-layout-content{
+  margin: 0!important;
+ 
+  flex:1;
+  overflow-x: hidden
+
+}
+:global span{
+  margin: 0 15px;
+}
+
+:global #components-layout-demo-custom-trigger .logo {
+  height: 32px;
+  background: rgba(255,255,255,.2);
+  margin: 16px;
+}
+
+:global #components-layout-demo-top-side .logo {
+  width: 120px;
+  height: 31px;
+  background: rgba(255,255,255,.2);
+  margin: 16px 28px 16px 0;
+  float: left;
+}
+
+:global #root {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+:global .shouye{
+  width: 100%;
+  height: 100%;
+
+}
+:global .ant-layout-content{
+  width: 100%;
+  overflow: auto;
+}
+
+:global .ant-layout-sider-children{
+  position: relative;
+  top:75px;
+}
+
+:global .log{
+  background-image: url('../../assets/download.jpg')
+}

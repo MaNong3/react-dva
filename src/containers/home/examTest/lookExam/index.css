@@ -1,0 +1,43 @@
+:global .test {
+  width: 100%;
+  height: 100%;
+  margin: 0 30px 30px 30px;
+
+}
+
+:global .test h1 {
+  margin: 40px;
+}
+
+:global .test .top {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #ffffff;
+  margin: 40px 0;
+}
+
+:global .test .bot {
+  background: #ffffff;
+}
+
+:global .test .bot p {
+  margin: 40px;
+  line-height: 20px;
+}
+
+:global .test .block {
+  padding: 200px;
+  margin-left: 800px;
+}
+
+:global .userlist {
+  width: 50%;
+}
+:global .createType{
+  outline: none;
+  border: 0;
+  width: 100%
+}

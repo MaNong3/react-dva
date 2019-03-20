@@ -1,0 +1,20 @@
+:global .ant-input-number-handler-wrap{
+    right: 18px!important;
+}
+:global .addtest{
+    text-align: center;
+    line-height: 5;
+}
+:global .select_box {
+    display: flex;
+    justify-content: center;
+}
+:global .el-input{
+    width: 50%;
+}
+:global .changNum b{
+    margin: 0 20px;
+}
+:global .data{
+    margin: 0 40px;
+}

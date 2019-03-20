@@ -1,0 +1,1 @@
+{"version":3,"sources":["model/questionsType/index.js"],"names":["__webpack_require__","r","__webpack_exports__","namespace","state"],"mappings":"2FAAAA,EAAAC,EAAAC,GAAeA,EAAA,SACXC,UAAU,gBACVC,MAAM","file":"static/js/14.755fb222.chunk.js","sourcesContent":["export default {\r\n    namespace:'questionsType',\r\n    state:{}\r\n}"],"sourceRoot":""}

@@ -1,0 +1,45 @@
+@charset "utf-8";
+:global{
+.test {
+    width: 100%;
+
+    margin: 0 30px 30px 30px;
+    overflow: hidden;
+    h1 {
+        margin: 40px;
+    }
+
+    .top {
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background: #ffffff;
+        margin: 40px 0;
+    }
+    .bot{
+        background: #ffffff;
+        p{
+            margin: 40px;
+            line-height: 20px
+        }
+    }
+    .block{
+        padding: 200px;
+        margin-left: 800px;
+    }
+    .select{
+        width: 800px;
+        display:flex!important;
+        flex-wrap: wrap;
+        .selects{
+            margin:  5px;
+        }
+    }
+    .lists{
+       overflow-y: auto
+    }
+}
+
+}
